@@ -29,7 +29,7 @@ third_plot_func <- function()
 #generates the fourth required subplot (bottom-right)
 fourth_plot_func <- function()
 {
-  plot(PowerConsumptionSub$TimeStamp, PowerConsumptionSub$Global_reactive_power, xlab="datetime", ylab="Global_reactive_power", type="l")
+  plot(PowerConsumptionSub$TimeStamp, PowerConsumptionSub$Global_reactive_power, xlab="datetime", ylab="Global_reactive_power", type="l", lwd=0.75)
 }
 
 
